@@ -11,7 +11,8 @@ let professional4:Professional = new Professional ("Stan Lee", 100, 70, 1.80, tr
 let professional5:Professional = new Professional ("Kevin Feige", 49, 75, 1.85, false, "American", 0, "Producer");
 
 
-let actors = [professional1, professional2]
+
+let actors: Professional []= [professional1,professional2];
 movie1.actors = actors;
 movie1.director = professional3;
 movie1.writer = professional4;

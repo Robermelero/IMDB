@@ -27,8 +27,8 @@ this.title = title;
 this.releaseYear = releaseYear;
 this.actors = [];
 this.nacionality = nacionality;
-this.director ;
-this.writer;
+this.director  ;
+this.writer ;
 this.language ;
 this.plataforma;
 this.isMCU;
@@ -41,8 +41,7 @@ this.genre = genre;
 /////////////////////////  METODS  //////////////////////////////
 
 public allPrint(){
+   
+   console.log("\nTitle :"+ this.title+"\nRelease Year :" +this.releaseYear+"\nActors :", this.actors,"\nNacionality :" +this.nacionality+"\nDirector :" ,this.director,"\nWriter :" , this.writer,"\nLanguage :" +this.language+"\nPlataforma :" +this.plataforma+"\nIs MCU :" +this.isMCU+"\nMain Character Name :" +this.mainCharacterName+"\nProducer :" +this.producer+"\nDistributor :" +this.distributor+"\nGenre :" +this.genre);
 
-    console.log"\nTitle :"+ this.title+ "\nRelease Year :"+ this.releaseYear+"\nActors :"+ this.actors.toPrint"\n"}Nacionality : ${this.nacionality}${"\n"}Director : ${this.director}${"\n"}Writer : ${this.writer}${"\n"}Language : ${this.language}${"\n"}Plataforma : ${this.plataforma}${"\n"}Is MCU : ${this.isMCU}${"\n"}Main Character Name : ${this.mainCharacterName}${"\n"}Producer : ${this.producer}${"\n"}Distributor : ${this.distributor}${"\n"}Genre : ${this.genre}`);
-}
-
-}
+}}

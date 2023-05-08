@@ -17,6 +17,7 @@ var Professional = /** @class */ (function () {
     Professional.prototype.toprint = function () {
         console.log("".concat("\n", "Name : ").concat(this.name).concat("\n", "Age : ").concat(this.age).concat("\n", "Weight : ").concat(this.weight).concat("\n", "Height : ").concat(this.height).concat("\n", "Is retired - ").concat(this.isRetired).concat("\n", "Nationality : ").concat(this.nationality).concat("\n", "Oscar number : ").concat(this.oscarsNumber).concat("\n", "Profession : ").concat(this.profession));
     };
+    ;
     return Professional;
 }());
 exports.Professional = Professional;

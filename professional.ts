@@ -32,7 +32,7 @@ public toprint (){
 
     console.log(`${"\n"}Name : ${this.name}${"\n"}Age : ${this.age}${"\n"}Weight : ${this.weight}${"\n"}Height : ${this.height}${"\n"}Is retired - ${this.isRetired}${"\n"}Nationality : ${this.nationality}${"\n"}Oscar number : ${this.oscarsNumber}${"\n"}Profession : ${this.profession}`);
 
-}
+};
 
 
 }

@@ -12,7 +12,7 @@ peliculas: Movie[];
 
 constructor (peliculas: Movie[]){
 
-    peliculas = [];
+    this.peliculas = [];
 }
 
 

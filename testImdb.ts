@@ -38,4 +38,9 @@ movie2.distributor = "Marvel";
 let movies:Movie[] = [movie1,movie2];
 let archive:Imbd = new Imbd(movies);
 
-console.log(movies);
+// console.log(movies);
+let json= JSON.stringify(movies);
+import * as fs from 'fs'
+import * as path from 'path'
+fs.writeFileSync("C:\Users\Admin\Desktop\Codenotch\IMBD\IMDB\imbdBBDD.json", json);
+console.log(fs.readFileSync("programming.json", "utf8"));

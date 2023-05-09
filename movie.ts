@@ -1,5 +1,7 @@
-import { Professional } from "./professional";
 
+
+import { Professional } from './professional';
+import { Imdb } from './imdb';
 
 export class Movie{
 
